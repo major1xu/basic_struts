@@ -11,6 +11,10 @@
         <action name="index">
             <result>/index.jsp</result>
         </action>
+		
+        <action name="hello" class="basic_struts.action.HelloWorldAction" method="execute">
+            <result name="success">/HelloWorld.jsp</result>
+        </action>
     </package>
 
 </struts>
